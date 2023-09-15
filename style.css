@@ -463,13 +463,16 @@ ul li img {
   gap: 20px;
   justify-content: space-between;
 }
+
 .img-wrapper {
   position: relative;
 }
+
 .img-wrapper img {
   width: 400px;
   border-radius: 20px;
 }
+
 .img-wrapper h1 {
   position: absolute;
   bottom: 0;
@@ -604,12 +607,95 @@ ul li img {
 
   /* Kartlar Alanı */
   .cards {
-    grid-template-columns: 1fr;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .card {
     max-width: 400px;
+  }
+
+  .welcome {
+    font-size: 36px;
+  }
+
+  #what-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info {
+    margin-bottom: 20px;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project .icon {
+    display: none;
+  }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-info p {
+    max-width: 400px;
+  }
+
+  .boxes .box:nth-child(4) {
+    display: none;
+  }
+
+  #count-sec {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .count-sec-right img {
+    width: 420px;
+  }
+
+  #images-sec {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .donate-sec-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 69px;
+    margin-left: 50px;
+  }
+
+  .donate-sec-info h1 {
+    white-space: nowrap;
+  }
+
+  .donate-sec-info button {
+    white-space: nowrap;
+  }
+
+  .donate-sec-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .donate-sec-people {
+    display: flex;
+    justify-content: center;
+    width: 200px;
   }
 }
 
